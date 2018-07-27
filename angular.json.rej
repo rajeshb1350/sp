@@ -1,0 +1,16 @@
+diff a/angular.json b/angular.json	(rejected hunks)
+@@ -28,9 +28,12 @@
+             ],
+             "styles": [
+               "src/assets/less/styles.less",
+-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
++              "node_modules/bootstrap/dist/css/bootstrap.min.css",
++              "src/assets/css/flexbox.css"
+             ],
+-            "scripts": []
++            "scripts": [
++              "node_modules/jquery/dist/jquery.min.js"
++            ]
+           },
+           "configurations": {
+             "production": {
